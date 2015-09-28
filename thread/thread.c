@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <errno.h>
 #include <pthread.h>
+
 void * thread_func(void *arg)
 { 
 	int i;
